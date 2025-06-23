@@ -1,6 +1,6 @@
-package com.frameworkanalysis.sp_core;
+package com.frameworkanalysis.spring.core;
 
-import com.frameworkanalysis.sp_core.model.Demo;
+import com.frameworkanalysis.spring.core.model.Demo;
 import org.springframework.util.*;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

@@ -1,4 +1,4 @@
-package com.frameworkanalysis.sp_core.model;
+package com.frameworkanalysis.spring.core.model;
 
 public class Demo {
     private String name;

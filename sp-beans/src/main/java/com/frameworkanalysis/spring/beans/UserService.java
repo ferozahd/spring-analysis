@@ -1,4 +1,4 @@
-package com.frameworkanalysis.sp_beans;
+package com.frameworkanalysis.spring.beans;
 
 class UserService {
     private  ItemService itemService;

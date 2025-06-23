@@ -1,8 +1,7 @@
-package com.frameworkanalysis.sp_beans;
+package com.frameworkanalysis.spring.beans;
 
 
 import org.springframework.beans.MutablePropertyValues;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
@@ -28,7 +27,7 @@ public class BeanDefinitionStarter {
 
         var factory2 = new DefaultListableBeanFactory();
         var reader = new XmlBeanDefinitionReader(factory2);
-        reader.loadBeanDefinitions(new ClassPathResource("spring_beans/beans.xml"));
+        reader.loadBeanDefinitions(new ClassPathResource("beans.xml"));
         var userService2 = factory2.getBean("userService", UserService.class);
         userService2.sayHello();
 

@@ -1,4 +1,4 @@
-package com.frameworkanalysis.sp_core;
+package com.frameworkanalysis.spring.core;
 
 
 import org.springframework.core.io.ClassPathResource;
@@ -24,7 +24,7 @@ import java.io.IOException;
 public class SpringCoreResourceStarter {
 
     public static void main(String[] args) throws IOException {
-        Resource r = new ClassPathResource("spring_core/resource_text.txt");
+        Resource r = new ClassPathResource("resource_text.txt");
         byte[] content = r.getContentAsByteArray();
         for (byte b : content) {
             System.out.print((char) b);

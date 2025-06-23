@@ -1,9 +1,9 @@
-package com.frameworkanalysis.sp_core;
+package com.frameworkanalysis.spring.core;
+
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.aop.framework.ProxyFactory;
-
 
 public class SpringCoreAopStarter {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class SpringCoreAopStarter {
 
 
 
- interface MyService {
+interface MyService {
     void doSomething();
 }
 

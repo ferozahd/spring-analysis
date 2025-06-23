@@ -5,9 +5,9 @@
          http://www.springframework.org/schema/beans
          https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="itemService" class="com.frameworkanalysis.sp_beans.ItemService" />
+    <bean id="itemService" class="com.frameworkanalysis.spring.beans.ItemService" />
 
-    <bean id="userService" class="com.frameworkanalysis.sp_beans.UserService">
+    <bean id="userService" class="com.frameworkanalysis.spring.beans.UserService">
         <property name="itemService" ref="itemService" />
     </bean>
 
