@@ -3,8 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/apache-logging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-logging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-beans/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-beans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-context/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-context/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

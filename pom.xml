@@ -12,6 +12,8 @@
         <module>sp-core</module>
         <module>sp-beans</module>
         <module>apache-logging</module>
+        <module>java-core</module>
+        <module>sp-context</module>
     </modules>
 
     <properties>
